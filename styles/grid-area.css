@@ -54,11 +54,11 @@
   .grid-container {
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
       'header '
       'nav  '
-      'aside main'
-      'ad footer ';
+      'aside main main main'
+      'ad footer footer footer ';
   }
 }
